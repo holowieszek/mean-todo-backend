@@ -1,0 +1,13 @@
+{ 
+    "watch": ["src"],
+    "ext": "ts",
+    "exec": "ts-node --project tsconfig.json ./server.ts",
+    "env": {
+        "MONGO_USER": "user",
+        "MONGO_PWD": "password",
+        "MONGO_HOST": "1234.mlab.com",
+        "MONGO_PORT": 1234,
+        "MONGO_DB": "mean-todo",
+        "JWT_SECRET": "secret"
+    }
+}
